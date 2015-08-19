@@ -1,0 +1,25 @@
+{
+  "name": "snow-lambda",
+  "version": "0.1.0",
+  "description": "lambda function enrichment for snowplow",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha"
+  },
+  "keywords": [
+    "snowplow"
+  ],
+  "author": "Cameron Bytheway <bytheway.cameron@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "maxmind": "^0.6.0",
+    "node-log-dissector": "^0.2.3",
+    "qs": "^4.0.0",
+    "referer-parser": "0.0.3",
+    "useragent": "^2.1.7"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "should": "^7.0.4"
+  }
+}
