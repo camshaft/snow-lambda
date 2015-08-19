@@ -18,7 +18,9 @@ exports.handler = function(event, context) {
     if (err) return context.fail(err);
     zlib.gunzip(response.Body, function(err, logs) {
       if (err) return context.fail(err);
-      var rows = pipeline(logs.toString());
+      var rows = pipeline(logs.toString(), [
+        key
+      ]);
       zlib.gzip(rows, function(err, compressed) {
         if (err) return context.fail(err);
         s3.putObject({
