@@ -12,6 +12,7 @@
   "author": "Cameron Bytheway <bytheway.cameron@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "aws-sdk": "^2.1.45",
     "maxmind": "^0.6.0",
     "node-log-dissector": "^0.2.3",
     "qs": "^4.0.0",
