@@ -18,4 +18,4 @@ var lines = cfp(text).map(function(line) {
   }, line);
 });
 
-console.log(lines);
+console.log(JSON.stringify(lines, null, '  '));
