@@ -5,4 +5,4 @@ var text = read(__dirname + '/parsers/sample.log', 'utf8');
 
 var out = pipeline(text);
 
-// process.stdout.write(out);
+console.log(out);
