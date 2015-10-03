@@ -16,6 +16,7 @@
     "batch": "^0.5.2",
     "data-lake": "http://data-lake.boombox.com/data-lake.tar.gz",
     "maxmind": "^0.6.0",
+    "mkdirp": "^0.5.1",
     "node-log-dissector": "^0.2.3",
     "qs": "^4.0.0",
     "referer-parser": "0.0.3",
