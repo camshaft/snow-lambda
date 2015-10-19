@@ -22,6 +22,7 @@
     "useragent": "^2.1.7"
   },
   "devDependencies": {
+    "maxmind-geolite-mirror": "^1.0.5",
     "mocha": "^2.2.5",
     "node-lambda": "^0.6.1",
     "should": "^7.0.4"
